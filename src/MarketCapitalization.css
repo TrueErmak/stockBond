@@ -1,0 +1,17 @@
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .video-container img {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .video-container p {
+    color: #ff0000; /* YouTube Red */
+    font-weight: bold;
+    cursor: pointer;
+  }

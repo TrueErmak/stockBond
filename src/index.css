@@ -1,0 +1,63 @@
+/* Updated CSS for a more modern and appealing look */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #3071d4;
+  /*background: url('/src/background.gif') no-repeat center center fixed; */
+  background-size: cover;
+}
+
+h1 {
+  color: #026495;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+li h2 {
+  color: #444;
+}
+
+pre {
+  background-color: #eee;
+  border-left: 3px solid #f36f48;
+  padding: 10px;
+  overflow: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #026495;
+  font-weight: bold;
+}
